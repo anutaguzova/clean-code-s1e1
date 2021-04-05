@@ -13,12 +13,12 @@ body {
     text-align: right;
 }
 
-.matrix img {
+.matrix__image{
     width: 100%;
 }
 
 .matrix,
-.more-information {
+.matrix__information {
     font-family: fantasy, cursive;
 }
 
@@ -42,7 +42,7 @@ body {
     flex-grow: 1;
 }
 
-.task__wrapper {
+.add__wrapper {
     display: flex;
 }
 
@@ -161,7 +161,7 @@ li > .delete__button:hover {
 
 /* Completed */
 
-#completed-tasks label {
+#completed__tasks label {
     text-decoration: line-through;
     color: #888;
 }
@@ -172,11 +172,11 @@ ul li input[type=text] {
     display: none;
 }
 
-ul li.edit-mode input[type=text] {
+ul li.edit__mode input[type=text] {
     display: inline-block;
     width: 224px;
 }
 
-ul li.edit-mode label {
+ul li.edit__mode label {
     display: none;
 }
